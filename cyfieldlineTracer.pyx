@@ -14,7 +14,7 @@ cimport numpy as np
 cimport cython
 import sys
 import matplotlib.pyplot as plt
-from pyEquilibrium.equilibrium import equilibrium
+from equilibrium import equilibrium
 from collections import namedtuple
 from copy import deepcopy as copy
 from scipy.interpolate import RectBivariateSpline
